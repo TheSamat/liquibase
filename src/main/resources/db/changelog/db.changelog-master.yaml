@@ -1,0 +1,11 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/migrations/2023.07.11-Salavat-TEST.sql
+  - include:
+      file: db/changelog/migrations/role/2023.07.18-Salavat-role-1-CST-ISTR-CT-IR.sql
+  - include:
+      file: db/changelog/migrations/user/2023.07.18-Salavat-_user-1-CT-IR.sql
+  - include:
+      file: db/changelog/migrations/session/2023-07-18-Salavat-session-1-CT.sql
+#  - includeAll:
+#      path: db/changelog/migrations/
